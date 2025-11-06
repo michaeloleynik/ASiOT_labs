@@ -1,0 +1,22 @@
+artifact_path: /home/ubuntu-1/Desktop/cert/mlflow-server/artifacts/1/models/m-9749429d6a7f4faa896640b084325a0b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.5.1
+model_id: m-9749429d6a7f4faa896640b084325a0b
+model_size_bytes: 140842
+model_uuid: m-9749429d6a7f4faa896640b084325a0b
+prompts: null
+run_id: c3b47659cff64dc28bea471e1d7fddd2
+utc_time_created: '2025-11-06 11:08:30.737627'
